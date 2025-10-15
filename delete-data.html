@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete My Data - HERQ</title>
+    <meta name="description" content="Request data deletion from HERQ - GDPR and privacy rights.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #007AFF;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        h1 {
+            color: #007AFF;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        
+        h2 {
+            color: #333;
+            margin: 30px 0 15px 0;
+            font-size: 1.4rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        h3 {
+            color: #555;
+            margin: 20px 0 10px 0;
+            font-size: 1.2rem;
+        }
+        
+        p, li {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        .warning {
+            background-color: #f8d7da;
+            padding: 20px;
+            border-left: 4px solid #dc3545;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .info {
+            background-color: #d1ecf1;
+            padding: 20px;
+            border-left: 4px solid #17a2b8;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .form-section {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border: 1px solid #e9ecef;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: inherit;
+        }
+        
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            margin-top: 5px;
+        }
+        
+        .btn {
+            background-color: #dc3545;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #c82333;
+        }
+        
+        .btn-secondary {
+            background-color: #6c757d;
+            margin-right: 10px;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+        
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border: 1px solid #e9ecef;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            color: #666;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #007AFF;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #007AFF;
+            border-radius: 6px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background-color: #007AFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">HERQ</div>
+            <div class="tagline">Smart Strength Training</div>
+        </div>
+        
+        <h1>Delete My Data</h1>
+        <p>Request permanent deletion of your HERQ account and all associated data.</p>
+        
+        <div class="warning">
+            <h3>⚠️ Warning: This Action Cannot Be Undone</h3>
+            <p>Deleting your account will permanently remove:</p>
+            <ul>
+                <li>All your workout data and history</li>
+                <li>Personal records and achievements</li>
+                <li>Custom workout templates</li>
+                <li>Account preferences and settings</li>
+                <li>All synced data across devices</li>
+            </ul>
+            <p><strong>This action is irreversible.</strong> Make sure you want to delete your data before proceeding.</p>
+        </div>
+
+        <div class="info">
+            <h3>💡 Alternative Options</h3>
+            <p>Before deleting your account, consider these alternatives:</p>
+            <ul>
+                <li><strong>Export your data:</strong> Download your workout history before deletion</li>
+                <li><strong>Disable cloud sync:</strong> Keep data local only</li>
+                <li><strong>Delete specific workouts:</strong> Remove individual entries instead of all data</li>
+                <li><strong>Take a break:</strong> Your data will remain safe if you stop using the app</li>
+            </ul>
+        </div>
+
+        <h2>How to Delete Your Data</h2>
+        
+        <h3>Option 1: Delete from the App (Recommended)</h3>
+        <ol>
+            <li>Open HERQ on your device</li>
+            <li>Go to Settings → Account</li>
+            <li>Tap "Delete Account" or "Delete All Data"</li>
+            <li>Follow the confirmation prompts</li>
+            <li>Type "DELETE" to confirm</li>
+        </ol>
+
+        <h3>Option 2: Request via Email</h3>
+        <p>If you can't access the app, you can request deletion by email:</p>
+
+        <div class="form-section">
+            <h3>Data Deletion Request Form</h3>
+            <form id="deletionForm">
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="reason">Reason for Deletion (Optional)</label>
+                    <select id="reason" name="reason">
+                        <option value="">Select a reason...</option>
+                        <option value="privacy-concerns">Privacy concerns</option>
+                        <option value="no-longer-needed">No longer need the app</option>
+                        <option value="switching-apps">Switching to another app</option>
+                        <option value="technical-issues">Technical issues</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="additional-info">Additional Information (Optional)</label>
+                    <textarea id="additional-info" name="additional-info" placeholder="Any additional details you'd like to share..."></textarea>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="confirm-deletion" name="confirm-deletion" required>
+                    <label for="confirm-deletion">
+                        I understand that this action will permanently delete all my HERQ data and cannot be undone. *
+                    </label>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="confirm-export" name="confirm-export">
+                    <label for="confirm-export">
+                        I have already exported my data from the app (recommended)
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn">Submit Deletion Request</button>
+            </form>
+        </div>
+
+        <h2>What Happens After You Request Deletion</h2>
+        <ol>
+            <li><strong>Immediate:</strong> Your account will be marked for deletion</li>
+            <li><strong>Within 24 hours:</strong> We'll send a confirmation email</li>
+            <li><strong>Within 7 days:</strong> All your data will be permanently deleted</li>
+            <li><strong>Confirmation:</strong> You'll receive a final confirmation email</li>
+        </ol>
+
+        <h2>Data Retention Policy</h2>
+        <p>We follow strict data retention policies:</p>
+        <ul>
+            <li>Account data is deleted within 7 days of request</li>
+            <li>Backup data is purged within 30 days</li>
+            <li>Anonymized analytics data may be retained for app improvement</li>
+            <li>Legal compliance data may be retained as required by law</li>
+        </ul>
+
+        <h2>Your Rights</h2>
+        <p>Under GDPR and other privacy laws, you have the right to:</p>
+        <ul>
+            <li><strong>Right to be forgotten:</strong> Request deletion of your personal data</li>
+            <li><strong>Right to access:</strong> Request a copy of all data we have about you</li>
+            <li><strong>Right to rectification:</strong> Correct inaccurate data</li>
+            <li><strong>Right to portability:</strong> Export your data in a standard format</li>
+            <li><strong>Right to object:</strong> Opt out of certain data processing</li>
+        </ul>
+
+        <div class="contact-info">
+            <h2>Need Help?</h2>
+            <p>If you have questions about data deletion or need assistance:</p>
+            <ul>
+                <li><strong>Email:</strong> privacy@herq.app</li>
+                <li><strong>Support:</strong> <a href="https://herq.app/#contact">https://herq.app/#contact</a></li>
+                <li><strong>Privacy Policy:</strong> <a href="/privacy-policy.html">https://herq.app/privacy-policy.html</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <a href="https://herq.app" class="back-link">← Back to HERQ</a>
+            <p style="margin-top: 20px;">© 2025 HERQ. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('deletionForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const email = formData.get('email');
+            const reason = formData.get('reason');
+            const additionalInfo = formData.get('additional-info');
+            const confirmed = formData.get('confirm-deletion');
+            
+            if (!confirmed) {
+                alert('Please confirm that you understand this action cannot be undone.');
+                return;
+            }
+            
+            // Create email body
+            const subject = encodeURIComponent('Data Deletion Request - HERQ');
+            const body = encodeURIComponent(`Data Deletion Request
+
+Email: ${email}
+Reason: ${reason || 'Not specified'}
+Additional Information: ${additionalInfo || 'None'}
+
+I request the permanent deletion of all my personal data associated with this email address.
+
+Please confirm receipt and provide an estimated timeline for deletion.
+
+Thank you.`);
+            
+            // Open email client
+            const mailtoLink = `mailto:privacy@herq.app?subject=${subject}&body=${body}`;
+            window.location.href = mailtoLink;
+            
+            // Show confirmation
+            alert('Your email client should open with a pre-filled deletion request. Please send the email to complete your request.');
+        });
+    </script>
+</body>
+</html>
