@@ -40,9 +40,9 @@ const RESOURCES = {"privacy-policy.html": "adf5c95e5dabc5d74b010783d1d158e9",
 "herq-release.apk": "3bd0ddc2f757cd38a599f88cb224e8a6",
 "favicon.png": "645bc8fa95be89a5d1e3636cb1cfacf4",
 "terms-of-service.html": "5011e5bcfcd1552a96d98cd03afa05b7",
-"flutter_bootstrap.js": "69691045be1255ba7ad1e63b10730251",
+"flutter_bootstrap.js": "14d435476f4a535e84c7e505b54037be",
 "version.json": "8e86c60c54e01eb4bfa07730002a10c0",
-"main.dart.js": "8a3be4f43f7efe31787b92a4b078da3f"};
+"main.dart.js": "6739d93faf38054e0a45fbb4bcaa5d16"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
