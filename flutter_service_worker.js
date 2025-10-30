@@ -19,7 +19,7 @@ const RESOURCES = {"privacy-policy.html": "bc4bd3a108b0bfcb2f1eb0efb35e6ea4",
 "assets/AssetManifest.bin.json": "48f5374da6332c245b62542350ee4757",
 "assets/assets/images/herq_logo%2520copy.png": "202312166bf6768858f5f8caa21c3b03",
 "assets/assets/images/herq_logo.png": "ef16843b441fca563cb798b1242a5663",
-"assets/fonts/MaterialIcons-Regular.otf": "d2dc4df819eef6a0b0272a664b9cac9b",
+"assets/fonts/MaterialIcons-Regular.otf": "36ff234e6984a65d97f9cde55d445485",
 "assets/NOTICES": "b4cf458f925dd328778ce7c0a20bed23",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "33b7d9392238c04c131b6ce224e13711",
 "assets/packages/wakelock_plus/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
@@ -41,9 +41,9 @@ const RESOURCES = {"privacy-policy.html": "bc4bd3a108b0bfcb2f1eb0efb35e6ea4",
 "herq-release.apk": "3bd0ddc2f757cd38a599f88cb224e8a6",
 "favicon.png": "645bc8fa95be89a5d1e3636cb1cfacf4",
 "terms-of-service.html": "fac4c70fef51b6e8028d6545823a84be",
-"flutter_bootstrap.js": "11e18bbf3f11d25d4f2b74a921514fd0",
+"flutter_bootstrap.js": "462d5893c00699d3232a5114615f8a3e",
 "version.json": "8e86c60c54e01eb4bfa07730002a10c0",
-"main.dart.js": "d429f4b2a0a3c0dab489d2067fbc5a13"};
+"main.dart.js": "d694202ac1290d4aacddd38ad3434b6f"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
